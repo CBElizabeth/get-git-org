@@ -122,15 +122,19 @@ form #lookupButton:active {
   width: 80%;
   max-width: 900px;
   margin: 0 auto;
-  height: 65vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   border-radius: 3px;
   padding-bottom: 1.5rem;
-  -webkit-transition: all 1s ease-in;
-  -moz-transition: all 1s ease-in;
-  -o-transition: all 1s ease-in;
-  transition: all 1s ease-in;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  transform: translate(-50%, 0%);
 }
 #results.hide {
   height: 0vh;
